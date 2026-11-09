@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">BiliGate</string>
+    <string name="service_label">BiliGate 首页闸</string>
+    <string name="service_description">关闭哔哩哔哩首页的推荐流，让首页只能通过顶部搜索栏进入视频。</string>
+
+    <string name="subtitle">哔哩哔哩首页闸 · 关掉推荐流，只留下搜索</string>
+
+    <string name="service_card_title">无障碍服务</string>
+    <string name="service_on">已开启</string>
+    <string name="service_off">未开启</string>
+    <string name="service_hint">拦截依赖系统的无障碍服务。本应用没有联网权限，不会读取或上传任何内容。</string>
+    <string name="diag_none">最近识别：暂无（打开一次哔哩哔哩首页再回来看）</string>
+    <string name="diag_seen">最近识别：%1$s</string>
+    <string name="btn_open_service">去开启无障碍服务</string>
+
+    <string name="master_title">拦截首页推荐</string>
+    <string name="master_on">已关闭推荐流，首页只能搜索</string>
+    <string name="master_off">未开启，首页可以正常刷</string>
+
+    <string name="btn_change_pin">修改密码</string>
+    <string name="btn_help">使用说明</string>
+    <string name="btn_forgot_pin">忘记密码？</string>
+
+    <string name="inset_title">顶部留白微调</string>
+    <string name="inset_auto">自动识别搜索栏位置</string>
+    <string name="inset_hint">如果顶部搜索栏被挡住，或者首页没有被挡住，可以关掉自动识别并手动调节留白高度。</string>
+    <string name="inset_value">%1$d dp</string>
+
+    <string name="footer">不联网 · 密码和设置只保存在本机</string>
+    <string name="version">v1.1</string>
+
+    <string name="pin_new">设置 4–8 位数字密码</string>
+    <string name="pin_new_again">再次输入密码</string>
+    <string name="pin_set_title">设置密码</string>
+    <string name="pin_current">请输入密码</string>
+    <string name="pin_length">密码需要 4–8 位数字</string>
+    <string name="pin_mismatch">两次输入不一致</string>
+    <string name="pin_saved">密码已保存</string>
+    <string name="pin_wrong">密码错误，还可以尝试 %1$d 次</string>
+    <string name="pin_locked">尝试次数过多，请 %1$d 秒后再试</string>
+    <string name="ask_pin_enable">输入密码以开启拦截</string>
+    <string name="ask_pin_disable">输入密码以关闭拦截</string>
+    <string name="ask_pin_change">输入当前密码</string>
+    <string name="need_overlay_title">还需要「显示悬浮窗」</string>
+    <string name="need_overlay_text">小米把无障碍遮罩当作悬浮窗管理。请在接下来的页面里允许 BiliGate 显示悬浮窗，否则首页遮罩不会出现。</string>
+    <string name="accessibility_path">在「已下载的应用」里找到 BiliGate 并开启</string>
+
+    <string name="confirm">确定</string>
+    <string name="cancel">取消</string>
+
+    <string name="toast_enabled">已开启：首页推荐流已关闭</string>
+    <string name="toast_disabled">已关闭：首页恢复正常</string>
+
+    <string name="need_service_title">还差一步</string>
+    <string name="need_service_text">请开启 BiliGate 的无障碍服务，否则拦截不会生效。\n\n设置 → 无障碍 → 已下载的应用 → BiliGate → 开启</string>
+    <string name="btn_open_settings">去开启</string>
+    <string name="btn_later">稍后</string>
+
+    <string name="help_title">使用说明</string>
+    <string name="help_text">1. 打开 设置 → 更多设置 → 无障碍 → 已下载的应用 → BiliGate，开启服务。\n\n如果这个开关是灰的（Android 13+ 对侧载应用的「受限设置」），先去 应用信息 → 右上角 ⋮ → 允许受限制的设置，再回来开启。\n\n2. 回到 BiliGate，打开「拦截首页推荐」，设置一个 4–8 位数字密码。\n\n3. 小米 / 澎湃 OS：再完成卡片里的「显示悬浮窗」「自启动」「省电策略」三项，否则遮罩可能不显示、或重启后失效。\n\n4. 打开哔哩哔哩：首页推荐流会被遮住，只留出顶部搜索栏。搜索页、视频页、动态等其它页面不受影响。\n\n5. 想恢复正常：打开 BiliGate，输入密码关闭开关。\n\n说明：小米把无障碍图层也当作「悬浮窗」管理，所以必须给悬浮窗权限；系统清理后台后无障碍服务可能被停用，可在最近任务里给 BiliGate 加锁。</string>
+
+    <string name="device_card_title">小米 / 澎湃 OS 适配</string>
+    <string name="device_tag_miui">已识别 MIUI</string>
+    <string name="device_tag_other">通用</string>
+    <string name="device_hint_miui">小米对无障碍遮罩额外要求「显示悬浮窗」，后台清理也比较激进，建议三项都授权。</string>
+    <string name="device_hint_other">非小米设备可以跳过这三项；遮罩使用无障碍图层，不需要悬浮窗权限。</string>
+
+    <string name="perm_overlay_title">显示悬浮窗</string>
+    <string name="perm_overlay_desc">没有它，小米上遮罩可能不显示</string>
+    <string name="perm_autostart_title">自启动</string>
+    <string name="perm_autostart_desc">重启手机后让服务自动恢复</string>
+    <string name="perm_battery_title">省电策略 · 无限制</string>
+    <string name="perm_battery_desc">防止后台被清理后拦截失效</string>
+
+    <string name="state_granted">已授权</string>
+    <string name="state_missing">未授权</string>
+    <string name="state_recommend">建议开启</string>
+    <string name="state_battery_ok">无限制</string>
+    <string name="state_battery_limited">可能被限制</string>
+    <string name="toast_open_failed">打不开系统页面，请手动到 设置 → 应用设置 → BiliGate</string>
+    <string name="toast_need_overlay">遮罩被系统拦住了：请给 BiliGate 开启「显示悬浮窗」权限</string>
+    <string name="toast_anchor_missing">没定位到搜索栏，遮罩按默认留白显示；有偏差可在 BiliGate 里微调</string>
+
+
+    <string name="forgot_title">忘记密码</string>
+    <string name="forgot_text">密码只以加盐哈希的形式保存在本机，无法找回。\n\n如果忘记密码：在系统设置中清除 BiliGate 的应用数据（或卸载重装），密码和开关会一起重置。</string>
+
+    <string name="shield_title">首页推荐已关闭</string>
+    <string name="shield_sub">想看什么，请点击顶部的搜索栏</string>
+    <string name="shield_foot">想恢复首页浏览？\n打开 BiliGate 并输入密码关闭拦截</string>
+</resources>
